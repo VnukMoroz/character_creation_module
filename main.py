@@ -1,4 +1,5 @@
 from random import randint
+from graphic_artss.start_game_banner import run_screensaver 
 
 def attack(char_name: str, char_class: str) -> str:
     """
@@ -110,12 +111,14 @@ def choice_char_class() -> str:
 
     return char_class
 
-def main() -> None:
+def main() -> None
     """
     Главная функция игры, которая запускает процесс создания персонажа и тренировку.
 
     :return: None
     """
+if __name__ == '__main__':
+    run_screensaver()
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
     char_name = input('...назови себя: ')
